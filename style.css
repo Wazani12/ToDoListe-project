@@ -1,0 +1,185 @@
+body{
+  /*  border: 3px solid black !important;*/
+    margin: auto !important;
+    padding: 20px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f2f2f2;
+  /*  width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; */
+}
+
+.container h1{
+    color: #333;
+    text-align: center;
+   font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container p{
+    font-size: smaller;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: none;
+    color: #585757;
+}
+
+
+
+
+.input-group{
+
+    border: 2px solid #000; 
+    padding: 10px;      
+    border-top-right-radius: 20px;     
+    border-bottom-left-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 90px;
+    box-shadow: rgb(84, 83, 83) 6px 5px 10px;
+}
+
+
+.input-group input{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.input-group button{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(98, 138, 98);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    margin-right: 20px;
+}
+
+.input-group button:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+
+}
+
+
+
+    .row {
+        display: flex; /* Use flexbox for inline layout */
+      justify-content: space-between;
+      }
+
+      
+.row .Tasks {
+    border: 2px solid black; /* Adds a solid black border */
+    padding: 10px; /* Adds some padding inside the div */
+    border-radius: 5px; /* Optional: Rounds the corners of the border */
+    margin-top: 10px; /* Optional: Adds some space above the Tasks section */
+    display: inline;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow:  rgb(84, 83, 83) 6px 5px 10px;
+    
+}
+      
+      .Tasks{
+        width: 500px;
+        margin-left: 90px;
+        margin-right: 90px;
+        
+      }
+
+
+      h2{
+        color: #333;
+        text-align: center;
+        font-size: larger;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+   
+      .Tasks button{
+        
+            background-color: #c2fbd7;
+            border-radius: 100px;
+            box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+            color: rgb(98, 138, 98);
+            cursor: pointer;
+            display: inline-block;
+            font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+            padding: 7px 20px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 250ms;
+            border: 0;
+            font-size: 16px;
+            -webkit-user-select: none;
+            user-select: none;
+            touch-action: manipulation;
+            margin-right: 20px;
+          
+        
+      }
+      
+
+      .Tasks button:hover{
+        box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+      transform: scale(1.05) rotate(-1deg);
+    
+    }
+
+    .task{
+       /* margin-left: 300px;*/
+       text-align: right;
+    }
+
+
+   
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
